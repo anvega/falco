@@ -28,7 +28,7 @@ This is a list of production adopters of Falco (in alphabetical order):
 
 *  [Sysdig](https://www.sysdig.com/) Sysdig originally created Falco in 2016 to detect unexpected or suspicious activity using a rules engine on top of the data that comes from the sysdig kernel system call probe. Sysdig provides tooling to help with vulnerability management, compliance, detection, incident response and forensics in Cloud-native environments. Sysdig Secure has extended Falco to include: a rule library, the ability to update macros, lists & rules via the user interface and API, automated tuning of rules, and rule creation based on profiling known system behavior. On top of the basic Falco rules, Sysdig Secure implements the concept of a "Security policy" that can comprise several rules which are evaluated for a user-defined infrastructure scope like Kubernetes namespaces, OpenShift clusters, deployment workload, cloud regions etc.
 
-#Consumers 
+# Consumers 
 
 Falco is being used by numerous other companies, both large and small, to build higher layer products and services. The list includes but is not limited to:
 
